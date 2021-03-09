@@ -10,7 +10,7 @@
     replace: 
         path: /var/www/default/index.html
         regexp: 'yui'
-        replace: 'this host 8081'
+        replace: 'this 8081'
         backup: yes
 - hosts: host02
   tasks:
@@ -18,7 +18,7 @@
     replace: 
         path: /var/www/default/index.html
         regexp: 'yui'
-        replace: 'this host 8082'
+        replace: 'this 8082'
         backup: yes
 - hosts: host03
   tasks:
@@ -26,5 +26,5 @@
     replace: 
         path: /var/www/default/index.html
         regexp: 'yui'
-        replace: 'this host 8083'
+        replace: 'this 8083'
         backup: yes
